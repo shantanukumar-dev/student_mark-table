@@ -1,0 +1,41 @@
+
+      body {
+         background-color: rgb(119, 247, 247);
+      }
+
+      h2 {
+
+         border: 1px solid black;
+         background-color: rgb(243, 243, 105);
+      }
+
+      #second {
+         width: 50%;
+         border: 1px solid black;
+         text-align: center;
+         background-color: rgb(162, 205, 244);
+      }
+
+      .heading {
+         border: 1px solid black;
+         background-color: rgb(117, 244, 201);
+      }
+
+      .data {
+         border: 1px solid black;
+         color: #ebffaf;
+      }
+
+      .reset {
+         background-color: rgb(80, 232, 80);
+      }
+
+      .submit {
+         background-color: rgb(226, 71, 71);
+      }
+ #result
+ {
+    background-color:black;
+    color: #fff;
+    width: 100%;
+ }

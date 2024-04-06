@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Student_table</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+
+<body>
+   <center>
+      <h2>STUDENT MARK TABLE</h2>
+      <form action="" method="post" onsubmit="result(); return false;">
+         <table>
+            <tr>
+               <td>
+                  <label for="name1">ENTER YOUR NAME:-</label>
+                  <input type="text" name="" id="name1" tabindex="1">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label for="Roll">ENTER YOUR ROLL_NUMBER:-</label>
+                  <input type="text" name="" id="Roll" tabindex="2">
+               </td>
+            </tr>
+         </table>
+         <table id="second">
+            <tr>
+               <th class="heading">SUBJECT</th>
+               <th class="heading">MARK</th>
+            </tr>
+            <tr>
+               <td class="data">ODIA</td>
+               <td class="data">
+                  <input type="number" name="" id="mark1" min="0" max="100" required tabindex="3">
+               </td>
+            </tr>
+            <tr>
+               <td class="data">ENGLISH</td>
+               <td class="data">
+                  <input type="number" name="" id="mark2" min="0" max="100" required tabindex="4">
+               </td>
+            </tr>
+            <tr>
+               <td class="data">PHYSICS</td>
+               <td class="data">
+                  <input type="number" name="" id="mark3" min="0" max="100" required tabindex="5">
+               </td>
+            </tr>
+            <tr>
+               <td class="data">CHEMISTRY</td>
+               <td class="data">
+                  <input type="number" name="" id="mark4" min="0" max="100" required tabindex="6">
+               </td>
+            </tr>
+            <tr>
+               <td class="data">MATHEMATICS</td>
+               <td class="data">
+                  <input type="number" name="" id="mark5" min="0" max="100" required tabindex="7">
+               </td>
+            </tr>
+            <tr>
+               <td class="data">COMPUTER SCIENCE</td>
+               <td class="data">
+                  <input type="number" name="" id="mark6" min="0" max="100" required tabindex="8">
+               </td>
+            </tr>
+         </table>
+         <br>
+         <input class="reset" type="reset" onclick="resetForm()">
+         <input class="submit" type="submit">
+      </form>
+
+      <div id="result">
+      </div>
+   </center>
+
+</body>
+
+</html>
